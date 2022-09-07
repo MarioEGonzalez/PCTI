@@ -1,0 +1,128 @@
+unit Calculoss;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.ExtCtrls;
+
+type
+  TForm2 = class(TForm)
+    Label1: TLabel;
+    Label2: TLabel;
+    Label4: TLabel;
+    Label5: TLabel;
+    Label6: TLabel;
+    Label3: TLabel;
+    Label7: TLabel;
+    Label8: TLabel;
+    Label9: TLabel;
+    Label10: TLabel;
+    Label11: TLabel;
+    Label12: TLabel;
+    vl: TLabeledEdit;
+    pnom: TLabeledEdit;
+    vloc: TLabeledEdit;
+    LabeledEdit3: TLabeledEdit;
+    vllr: TLabeledEdit;
+    plr: TLabeledEdit;
+    vdc: TLabeledEdit;
+    polos: TLabeledEdit;
+    fnom: TLabeledEdit;
+    ioc: TLabeledEdit;
+    LabeledEdit10: TLabeledEdit;
+    ilr: TLabeledEdit;
+    ftestlr: TLabeledEdit;
+    idc: TLabeledEdit;
+    Button1: TButton;
+    Label13: TLabel;
+    Label14: TLabel;
+    wsinc: TLabeledEdit;
+    R1: TLabeledEdit;
+    x1: TLabeledEdit;
+    xm: TLabeledEdit;
+    x2: TLabeledEdit;
+    R2: TLabeledEdit;
+    procedure Button1Click(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  Form2: TForm2;
+
+implementation
+
+{$R *.dfm}
+
+procedure TForm2.Button1Click(Sender: TObject);
+var
+nsinc, wsinc1,wsinc2,fnom1,polos1,vf, vl1,pnom1,asd,R11,vdc1,idc1,vloc1,vfoc,zn1,ioc1,
+zlr,vllr1,vflr,ilr1,theta,thetagrados,plr1,ftestlr1,rlr,xlrprima,xlr,xm1,x11,x22,
+r22: Real;
+float : single;
+begin
+ Formatsettings.DecimalSeparator := ',';
+ Formatsettings.DecimalSeparator := '.';
+
+            wsinc1:=strtoFloat(wsinc.Text);
+            vl1:=strtoFloat(vl.Text);
+            polos1:=strtoFloat(polos.Text);
+            fnom1:=strtoFloat(fnom.Text);
+            pnom1:=strtoFloat(pnom.Text);
+            vdc1:=strtoFloat(vdc.Text);
+            idc1:=strtoFloat(idc.Text);
+             vloc1:=strtoFloat(vloc.Text);
+             ioc1:=strtoFloat(ioc.Text);
+             vllr1:=strtoFloat(vllr.Text);
+             ilr1:=strtoFloat(ilr.Text);
+             plr1:=strtoFloat(plr.Text);
+             ftestlr1:=strtoFloat(ftestlr.Text);
+             xm1:=strtoFloat(xm.Text);
+
+            // Calculos
+              vf:=vl1/sqrt(3);
+              nsinc:= 120*fnom1/polos1;
+              asd:=pnom1*746;
+              wsinc1:=nsinc*2*pi/60;
+
+              // del ensayo en DC
+              R11:=((vdc1/(2*idc1)));
+
+              // del ensayo en vacio
+             vfoc:= vloc1/sqrt(3);
+             zn1:=vfoc/ioc1;
+
+             // del ensayo a rotor bloqueado
+              vflr:=vllr1/sqrt(3);
+              zlr:= vflr/ilr1;
+
+              theta:=cos(plr1/(sqrt(3)*ilr1*vllr1));
+              thetagrados:=theta*180/pi ;
+
+              // luego
+              rlr:=zlr*Cos(theta);
+              xlrprima:=zlr*(sin(theta));
+              xlr:= xlrprima*fnom1/ftestlr1;
+
+              //ahora
+              x11:=0.5*xlr;
+              xm1:=zn1-x11;
+              x22:=0.5*xlr;
+              r22:=rlr-r11;
+
+
+
+              //Resultados
+
+              wsinc.Text:=floattostr(wsinc1);
+              R1.Text:=floattostr(R11);
+               R2.Text:=floattostr(R22);
+                x1.Text:=floattostr(x11);
+                 x2.Text:=floattostr(x22);
+
+end;
+
+end.

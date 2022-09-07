@@ -1,0 +1,16 @@
+program PCTI;
+
+uses
+  Vcl.Forms,
+  Calculoss in 'Calculoss.pas' {Form2},
+  calculoss2 in 'calculoss2.pas' {calculoos};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm2, Form2);
+  Application.CreateForm(Tcalculoos, calculoos);
+  Application.Run;
+end.

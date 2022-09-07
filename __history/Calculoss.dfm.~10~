@@ -1,0 +1,76 @@
+object Form2: TForm2
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 655
+  ClientWidth = 980
+  Color = clWhite
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 128
+    Top = 336
+    Width = 561
+    Height = 21
+    Caption = 
+      'Este programa calcula los par'#225'mtros del circuito equivalente de ' +
+      'un motor'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsItalic]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 128
+    Top = 376
+    Width = 551
+    Height = 21
+    Caption = 
+      'trifasico de inducci'#243'n,  a partir de los ensayos de vac'#237'o, rotor' +
+      ' bloqueado'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsItalic]
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 128
+    Top = 416
+    Width = 566
+    Height = 21
+    Caption = 
+      'y ensayo en DC, datos necesarios cuando se trabajan maquinas ele' +
+      'ctricas'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsItalic]
+    ParentFont = False
+  end
+  object Caolculos: TButton
+    Left = 720
+    Top = 592
+    Width = 137
+    Height = 41
+    Caption = 'Siguiente'
+    Font.Charset = ANSI_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsItalic]
+    ParentFont = False
+    TabOrder = 0
+    OnClick = CaolculosClick
+  end
+end

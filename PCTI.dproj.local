@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/04/12 18:11:28.000.118,=D:\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/08/14 17:19:04.000.890,=D:\Documentos\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2022/08/14 17:19:36.000.038,D:\Documentos\Embarcadero\Studio\Projects\Unit2.pas=D:\Documentos\Embarcadero\Studio\Projects\App_efrenv2\Calculoss.pas</Transaction>
+    <Transaction>2022/08/14 17:19:36.000.038,D:\Documentos\Embarcadero\Studio\Projects\Unit2.dfm=D:\Documentos\Embarcadero\Studio\Projects\App_efrenv2\Calculoss.dfm</Transaction>
+    <Transaction>2022/08/14 17:20:05.000.993,D:\Documentos\Embarcadero\Studio\Projects\Project1.dproj=D:\Documentos\Embarcadero\Studio\Projects\App_efrenv2\PCTI.dproj</Transaction>
+    <Transaction>2022/08/14 18:34:47.000.404,=D:\Documentos\Embarcadero\Studio\Projects\App_efrenv2\Unit1.pas</Transaction>
+    <Transaction>2022/08/14 18:37:28.000.231,D:\Documentos\Embarcadero\Studio\Projects\App_efrenv2\calculoss2.dfm=D:\Documentos\Embarcadero\Studio\Projects\App_efrenv2\Unit1.dfm</Transaction>
+    <Transaction>2022/08/14 18:37:28.000.231,D:\Documentos\Embarcadero\Studio\Projects\App_efrenv2\calculoss2.pas=D:\Documentos\Embarcadero\Studio\Projects\App_efrenv2\Unit1.pas</Transaction>
+    <Transaction>2022/08/14 20:15:16.000.407,=D:\Documentos\Embarcadero\Studio\Projects\App_efrenv2\Unit1.pas</Transaction>
+    <Transaction>2022/08/14 20:21:05.000.944,D:\Documentos\Embarcadero\Studio\Projects\App_efrenv2\autoress.pas=D:\Documentos\Embarcadero\Studio\Projects\App_efrenv2\Unit1.pas</Transaction>
+    <Transaction>2022/08/14 20:21:05.000.944,D:\Documentos\Embarcadero\Studio\Projects\App_efrenv2\autoress.dfm=D:\Documentos\Embarcadero\Studio\Projects\App_efrenv2\Unit1.dfm</Transaction>
+    <Transaction>2022/08/14 20:37:37.000.494,=D:\Documentos\Embarcadero\Studio\Projects\App_efrenv2\Unit1.pas</Transaction>
+    <Transaction>2022/08/14 20:37:48.000.662,D:\Documentos\Embarcadero\Studio\Projects\App_efrenv2\uptcc.pas=D:\Documentos\Embarcadero\Studio\Projects\App_efrenv2\Unit1.pas</Transaction>
+    <Transaction>2022/08/14 20:37:48.000.662,D:\Documentos\Embarcadero\Studio\Projects\App_efrenv2\uptcc.dfm=D:\Documentos\Embarcadero\Studio\Projects\App_efrenv2\Unit1.dfm</Transaction>
+    <Transaction>2022/08/14 20:43:52.000.317,=D:\Documentos\Embarcadero\Studio\Projects\App_efrenv2\Unit1.pas</Transaction>
+    <Transaction>2022/08/14 20:44:16.000.439,D:\Documentos\Embarcadero\Studio\Projects\App_efrenv2\resumenn.dfm=D:\Documentos\Embarcadero\Studio\Projects\App_efrenv2\Unit1.dfm</Transaction>
+    <Transaction>2022/08/14 20:44:16.000.439,D:\Documentos\Embarcadero\Studio\Projects\App_efrenv2\resumenn.pas=D:\Documentos\Embarcadero\Studio\Projects\App_efrenv2\Unit1.pas</Transaction>
+    <Transaction>2022/08/14 20:44:27.000.455,=D:\Documentos\Embarcadero\Studio\Projects\App_efrenv2\Unit1.pas</Transaction>
+    <Transaction>2022/08/14 20:45:43.000.923,D:\Documentos\Embarcadero\Studio\Projects\App_efrenv2\marcoo.dfm=D:\Documentos\Embarcadero\Studio\Projects\App_efrenv2\Unit1.dfm</Transaction>
+    <Transaction>2022/08/14 20:45:43.000.923,D:\Documentos\Embarcadero\Studio\Projects\App_efrenv2\marcoo.pas=D:\Documentos\Embarcadero\Studio\Projects\App_efrenv2\Unit1.pas</Transaction>
+  </Transactions>
+	<ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="autoress.pas"/>
+    <File Path="autoress.dfm"/>
+    <File Path="Calculoss.pas"/>
+    <File Path="Calculoss.dfm"/>
+    <File Path="calculoss2.pas"/>
+    <File Path="calculoss2.dfm"/>
+    <File Path="marcoo.pas"/>
+    <File Path="marcoo.dfm"/>
+    <File Path="resumenn.pas"/>
+    <File Path="resumenn.dfm"/>
+    <File Path="uptcc.pas"/>
+    <File Path="uptcc.dfm"/>
+  </ProjectSortOrder>
+</BorlandProject>
